@@ -1,0 +1,103 @@
+ <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Nagłówek */
+        .header {
+            background-color: #8bc34a;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .contact-info {
+            font-size: 14px;
+        }
+
+        .header .top-links {
+            font-size: 14px;
+        }
+
+        /* Pasek nawigacyjny */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Sekcja główna */
+        .hero {
+            display: flex;
+            background-color: #000;
+            color: white;
+            padding: 50px 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero .text {
+            max-width: 50%;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            margin: 20px 0;
+        }
+
+        .hero button {
+            background-color: #8bc34a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .hero img {
+            max-width: 40%;
+        }
+
+        /* Sekcja funkcji */
+        .features {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .features .feature {
+            margin: 0 20px;
+        }
+
+        .features .feature img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .features h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .features p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
